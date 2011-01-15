@@ -1,5 +1,5 @@
 require 'tempfile'
-require 'ftools'
+require 'fileutils'
 
 Tempfile.class_eval do
   # overwrite so tempfiles use the extension of the basename.  important for rmagick and image science

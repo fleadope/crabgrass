@@ -1,4 +1,4 @@
-require 'ftools'
+require 'fileutils'
 
 # abstract superclass of OpenOffice and GraphicMagic processors
 # subclasses must define available? and run()

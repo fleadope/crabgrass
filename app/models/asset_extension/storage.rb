@@ -40,7 +40,7 @@ This tells Rails to generate links to the following four hosts: assets0.example.
 
 =end
 
-require 'ftools'
+require 'fileutils'
 require 'pathname'
 
 module AssetExtension # :nodoc:
